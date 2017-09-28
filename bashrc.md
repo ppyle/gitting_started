@@ -17,7 +17,7 @@ Export PATH=$PATH”:/soft/anaconda/bin”
 Source activate IPyRoot
 ```
 
-5. Save the file using the **WriteOut** command or **ctrl o** and exit out of the file **ctrl x** (note: these are the commands for pico)
+5. Save the file using the **WriteOut** command or **ctrl o** and exit out of the file using **ctrl x** (note: these are the commands for pico)
 6. Use command 
 ``` 
 $ source .bashrc
