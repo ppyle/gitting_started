@@ -22,10 +22,15 @@ Source activate IPyRoot
 ``` 
 $ source .bashrc
 ``` 
-and if you don’t get a syntax error then congrats! You just specified a path and you should try running your code.  If you did get a syntax error then try the command ````$ echo $shell```` and if you get anything other than `bash` (such as `tcsh`) then we need to change your shell so the *.bashrc* file can be properly read
+	and if you don’t get a syntax error then congrats! You just specified a path and you should try running your code.  If you did get a syntax error then try the command 
+````
+$ echo $shell
+```` 
+	and if you get anything other than `bash` (such as `tcsh`) then we need to change your shell so the *.bashrc* file can be properly read
 7. Use command 
 ```
 chsh -s /bin/bash
 ``` 
-it will prompt you for your password and voila your shell has been changed!
+	it will prompt you for your password and voila your shell has been changed!
+
 8. See bullet 6 again
