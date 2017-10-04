@@ -1,14 +1,14 @@
 # Getting the Code to Work
 So you’ve ssh’ed into nero, cloned the repository, changed the *.bashrc* and are finally ready to work on the code!  But wait! When you type 
 ```
-$ ssh username@nero.stanford.edu
-$ cd /scratch/username/Example_Noise
-$ python test_1.py
+<Username@Laptop> $ ssh username@nero.stanford.edu
+<Username@nero> $ cd /scratch/username/Example_Noise
+<Username@nero> $ python test_1.py
 ```
 
 into the command shell you get an error. As long as the first thing you see after that command is `hello world` then you are on the right track.  Most likely what has happened is that you are not specifying the correct path to the data that your code reads in.  Type in 
 ```
-$ pico test_1.py 
+<Username@nero> $ pico test_1.py 
 ```
 
 to get a look at the code.  One of the first commands should be 
